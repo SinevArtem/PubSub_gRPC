@@ -8,7 +8,6 @@ import (
 )
 
 type Config struct {
-	Env  string     `yaml:"env" env-defoult:"local"`
 	GRPC GRPCConfig `yaml:"grpc"`
 }
 
